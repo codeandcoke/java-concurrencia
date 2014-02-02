@@ -9,7 +9,6 @@ Ejemplos de programación concurrente con Java
 - **Boxeo v3**: Ejemplo de sincronización de hilos para el caso general (n hilos) (v3)
 - **CargarImagenes**: Ejemplo de cómo cargar un grupo de imágenes en segundo plano actualizan el interfaz gráfico utilizando la clase SwingWorker
 - **CarreraCoches**: Ejemplo de sincronización de tareas utilizando SwingWorker
-- **Chat_v4**: Ejemplo de aplicación cliente y servidor de Chat utilizando Sockets
 - **DescargaFicheros**: Ejemplo de descarga de ficheros utilizando SwingWorker
 - **Despertador**: Ejemplo de utilización de hilos en Java
 - **Hilos_Compartir**: Cómo compartir recursos con hilos en Java
