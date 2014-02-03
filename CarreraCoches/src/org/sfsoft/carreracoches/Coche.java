@@ -5,6 +5,9 @@ import java.util.Random;
 import javax.swing.JLabel;
 import javax.swing.SwingWorker;
 
+/**
+* @author Santiago Faci
+*/
 public class Coche extends SwingWorker<Void, Integer> {
 
 	private int velocidad;
