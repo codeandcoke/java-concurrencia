@@ -2,6 +2,9 @@ package org.sfsoft.examenpsp1;
 
 import java.util.Random;
 
+/**
+ * @author Santiago Faci
+ */
 public class Boxeador extends Thread {
 
 	private String nombre;
