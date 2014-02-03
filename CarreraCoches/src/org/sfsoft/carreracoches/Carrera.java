@@ -12,6 +12,9 @@ import java.awt.event.ActionEvent;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
+/**
+* @author Santiago Faci
+*/
 public class Carrera {
 
 	private JFrame frmCarrea;
