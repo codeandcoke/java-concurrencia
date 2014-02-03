@@ -1,5 +1,8 @@
 package org.sfsoft.examenpsp1;
 
+/**
+* @author Santiago Faci
+*/
 public class Ring {
 
 	private int golpes;
