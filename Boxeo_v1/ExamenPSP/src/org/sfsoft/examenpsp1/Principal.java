@@ -1,5 +1,8 @@
 package org.sfsoft.examenpsp1;
 
+/**
+* @author Santiago Faci
+*/
 public class Principal {
 
 	public static void main(String args[]) {
