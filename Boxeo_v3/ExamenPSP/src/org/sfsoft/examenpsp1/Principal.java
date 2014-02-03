@@ -2,6 +2,9 @@ package org.sfsoft.examenpsp1;
 
 import java.util.Random;
 
+/**
+* @author Santiago Faci
+*/
 public class Principal {
 
 	public static void main(String args[]) {
@@ -15,7 +18,7 @@ public class Principal {
 		for (int i = 0; i < n; i++)
 			boxeadores[i] = new Boxeador(String.valueOf(i), ring);
 		
-		// Se les asigna rival (puede acabar pegándose a si mismo)
+		// Se les asigna rival (puede acabar pegï¿½ndose a si mismo)
 		for (int i = 0; i < n; i++)
 			boxeadores[i].setRival(boxeadores[generador.nextInt(n - 1)]);
 		
@@ -32,7 +35,7 @@ public class Principal {
 		
 		System.out.println("Fin del combate");
 		
-		// Calcula el boxeador con más golpes (no respeta empates)
+		// Calcula el boxeador con mï¿½s golpes (no respeta empates)
 		int golpesGanadores = 0;
 		String ganador = null;
 		for (Boxeador boxeador : boxeadores) {
