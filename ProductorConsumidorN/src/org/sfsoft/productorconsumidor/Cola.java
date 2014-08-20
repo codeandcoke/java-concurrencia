@@ -4,9 +4,10 @@ import java.util.ArrayList;
 
 /**
  * Clase que representa una cola de elementos
- * En este ejemplo será lo que se conoce como un recurso compartido, puesto que varios hilos accederán de forma concurrente a ella
+ * En este ejemplo será lo que se conoce como un recurso compartido, puesto que varios hilos accederán de forma
+ * concurrente a ella
  * @author Santiago Faci
- *
+ * @version curso 2014-2015
  */
 public class Cola {
 

@@ -5,12 +5,11 @@ import java.util.Observer;
 
 /**
  * Clase TareaObservable
- * Es la clase Observable. Los cambios que se produzcan serán 
+ * Es la clase Observable. Los cambios que se produzcan serÃ¡n
  * observados inmediatamente por las clases Observer que se registren
- * desde ésta
+ * desde Ã©sta
  * @author Santiago Faci
- * @version 1.0
- *
+ * @version curso 2014-2015
  */
 public class TareaObservable extends Observable implements Runnable {
 
@@ -18,9 +17,9 @@ public class TareaObservable extends Observable implements Runnable {
 	private boolean funcionando;
 	
 	/*
-	 *  Único observador
-	 *  En el caso de que hubiera varios, podrían guardarse
-	 *  como colección
+	 *  Ãšnico observador
+	 *  En el caso de que hubiera varios, podrÃ­an guardarse
+	 *  como colecciÃ³n
 	 */
 	private Observer observer;
 	
@@ -50,7 +49,7 @@ public class TareaObservable extends Observable implements Runnable {
 	}
 	
 	/**
-	 * Método que permite añadir observadores de esta clase
+	 * MÃ©todo que permite aÃ±adir observadores de esta clase
 	 */
 	@Override
 	public void addObserver(Observer observer) {
@@ -58,7 +57,7 @@ public class TareaObservable extends Observable implements Runnable {
 	}
 	
 	/**
-	 * Método que notifica los cambios a los observadores
+	 * MÃ©todo que notifica los cambios a los observadores
 	 * de esta clase
 	 */
 	@Override

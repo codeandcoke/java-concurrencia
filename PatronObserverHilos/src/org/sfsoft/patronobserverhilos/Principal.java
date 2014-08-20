@@ -4,16 +4,15 @@ import org.sfsoft.patronobserverhilos.base.TareaObservable;
 import org.sfsoft.patronobserverhilos.base.TareaObserver;
 
 /**
- * Ejemplo que muestra cómo se implementa el patrón Observer
- * utilizando el API que Java proporciona en una aplicación
+ * Ejemplo que muestra cÃ³mo se implementa el patrÃ³n Observer
+ * utilizando el API que Java proporciona en una aplicaciÃ³n
  * con Hilos
  * 
- * En este caso, disponemos de un Hilo de forma que es él mismo quien 
+ * En este caso, disponemos de un Hilo de forma que es Ã©l mismo quien
  * notifica los cambios que realiza a otra clase
  * 
  * @author Santiago Faci
- * @version 1.0
- *
+ * @version curso 2014-2015
  */
 public class Principal {
 

@@ -6,7 +6,7 @@ import org.sfsoft.patronobserver.base.Cliente;
 import org.sfsoft.patronobserver.base.Producto;
 
 /**
- * Ejemplo que muestra cÛmo se implementa el patrÛn Observer
+ * Ejemplo que muestra c√≥mo se implementa el patr√≥n Observer
  * utilizando el API que Java proporciona
  * 
  * En este caso, disponemos de un Cliente que reacciona
@@ -14,7 +14,7 @@ import org.sfsoft.patronobserver.base.Producto;
  * 
  * @author Santiago Faci
  * @version 1.0
- *
+ * @version curso 2014-2015
  */
 public class Principal {
 
@@ -34,11 +34,11 @@ public class Principal {
 		cliente.setFechaNacimiento(new GregorianCalendar().getTime());
 		
 		/*
-		 * Se aÒaden observadores a la clase observable
+		 * Se a√±aden observadores a la clase observable
 		 */
 		producto.addObserver(cliente);
 		/*
-		 * Un cambio en la clase observada har· "reaccionar" a la clase observadora
+		 * Un cambio en la clase observada har√° "reaccionar" a la clase observadora
 		 */
 		producto.setStock(23);
 	}

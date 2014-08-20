@@ -3,8 +3,9 @@ package org.sfsoft.examenpsp1;
 import java.util.Random;
 
 /**
-* @author Santiago Faci
-*/
+ * @author Santiago Faci
+ * @version curso 2014-2015
+ */
 public class Principal {
 
 	public static void main(String args[]) {

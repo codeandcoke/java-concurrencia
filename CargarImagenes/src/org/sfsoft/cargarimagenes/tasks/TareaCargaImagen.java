@@ -24,7 +24,7 @@ import javax.swing.SwingWorker;
  * que se encuentra en cada momento la tarea
  * 
  * @author Santiago Faci
- *
+ * @version curso 2014-2015
  */
 public class TareaCargaImagen extends SwingWorker<ArrayList<BufferedImage>, Integer>{
 	

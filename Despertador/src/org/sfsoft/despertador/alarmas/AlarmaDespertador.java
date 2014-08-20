@@ -10,7 +10,7 @@ import org.sfsoft.despertador.util.Util;
  * de forma 'thread-safe'
  * 
  * @author Santiago Faci
- *
+ * @version curso 2014-2015
  */
 public class AlarmaDespertador extends SwingWorker<Void, Void> {
 

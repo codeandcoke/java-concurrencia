@@ -4,6 +4,7 @@ package org.sfsoft.hilos_sincronizar;
  * Clase que representa a un hilo que debe ejecutarse
  * de forma ininterrumpida mientras dure la ejecución de otro hilo
  * @author Santiago Faci
+ * @version curso 2014-2015
  *
  */
 public class Hilo2 extends Thread {

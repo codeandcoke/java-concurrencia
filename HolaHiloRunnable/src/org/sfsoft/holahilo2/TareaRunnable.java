@@ -5,6 +5,7 @@ package org.sfsoft.holahilo2;
  * En este caso implementamos la clase implementando el interfaz Runnable
  * Utilizaremos esta manera de crear hilos cuando nuestra clase ya esté heredando (por necesidades de diseño) de otra clase
  * @author Santiago Faci
+ * @version 2014-2015
  */
 public class TareaRunnable implements Runnable {
 	

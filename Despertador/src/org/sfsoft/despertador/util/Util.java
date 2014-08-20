@@ -7,7 +7,7 @@ import java.util.GregorianCalendar;
  * Clase con métodos
  * 
  * @author Santiago Faci
- *
+ * @version curso 2014-2015
  */
 public class Util {
 

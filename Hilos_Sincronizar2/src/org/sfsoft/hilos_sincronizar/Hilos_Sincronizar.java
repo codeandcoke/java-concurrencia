@@ -4,6 +4,7 @@ package org.sfsoft.hilos_sincronizar;
  * Clase que muestra como sincronizar dos hilos de forma
  * que un hilo se ejecute mientras dure la ejecución de un primer hilo
  * @author Santiago Faci
+ * @version curso 2014-2015
  */
 public class Hilos_Sincronizar {
 

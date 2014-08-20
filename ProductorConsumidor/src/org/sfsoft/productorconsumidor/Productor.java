@@ -3,7 +3,7 @@ package org.sfsoft.productorconsumidor;
 /**
  * Clase que produce elementos y los añade en la cola
  * @author Santiago Faci
- *
+ * @version curso 2014-2015
  */
 public class Productor extends Thread {
 

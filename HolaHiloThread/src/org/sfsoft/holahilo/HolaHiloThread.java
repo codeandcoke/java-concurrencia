@@ -5,6 +5,7 @@ package org.sfsoft.holahilo;
  * Clase principal
  * Lanzamos dos hilos y comprobamos como se ejecutan de forma concurrente
  * @author Santiago Faci
+ * @version curso 2014-2015
  */
 public class HolaHiloThread {
 

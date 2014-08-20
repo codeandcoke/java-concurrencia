@@ -3,7 +3,7 @@ package org.sfsoft.productorconsumidor;
 /**
  * Ejemplo Productor-Consumidor con varios productores y consumidores
  * @author Santiago Faci
- *
+ * @version curso 2014-2015
  */
 public class ProductorConsumidorN {
 

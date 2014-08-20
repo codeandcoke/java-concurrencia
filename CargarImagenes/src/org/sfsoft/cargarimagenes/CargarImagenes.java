@@ -27,7 +27,6 @@ import java.beans.PropertyChangeListener;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.concurrent.ExecutionException;
 import javax.swing.SwingConstants;
 
 /**
@@ -40,7 +39,7 @@ import javax.swing.SwingConstants;
  * en la barra de estado
  * 
  * @author Santiago Faci
- *
+ * @version curso 2014-2015*
  */
 public class CargarImagenes {
 

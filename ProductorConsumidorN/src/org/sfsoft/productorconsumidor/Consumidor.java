@@ -3,7 +3,7 @@ package org.sfsoft.productorconsumidor;
 /**
  * Clase que consume elementos eliminándolos de la cola
  * @author Santiago Faci
- *
+ * @version curso 2014-2015
  */
 public class Consumidor extends Thread {
 

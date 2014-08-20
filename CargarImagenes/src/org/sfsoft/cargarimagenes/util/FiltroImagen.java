@@ -7,7 +7,7 @@ import java.io.FileFilter;
  * Clase que implementa un filtro aplicable sobre ficheros
  * En este caso es un filtro para ficheros de imagen
  * @author Santiago Faci
- *
+ * @version curso 2014-2015
  */
 public class FiltroImagen implements FileFilter{
 

@@ -5,12 +5,11 @@ import java.util.Observer;
 
 /**
  * Clase Producto
- * Es la clase Observable. Los cambios que se produzcan serán 
+ * Es la clase Observable. Los cambios que se produzcan serÃ¡n
  * observados inmediatamente por las clases Observer que se registren
- * desde ésta
+ * desde Ã©sta
  * @author Santiago Faci
- * @version 1.0
- *
+ * @version curso 2014-2015
  */
 public class Producto extends Observable {
 
@@ -20,9 +19,9 @@ public class Producto extends Observable {
 	private int stock;
 	
 	/*
-	 *  Único observador
-	 *  En el caso de que hubiera varios, podrían guardarse
-	 *  como colección
+	 *  Ãšnico observador
+	 *  En el caso de que hubiera varios, podrÃ­an guardarse
+	 *  como colecciÃ³n
 	 */
 	private Observer observer;
 	
@@ -63,7 +62,7 @@ public class Producto extends Observable {
 	}
 	
 	/**
-	 * Método que permite añadir observadores de esta clase
+	 * MÃ©todo que permite aÃ±adir observadores de esta clase
 	 */
 	@Override
 	public void addObserver(Observer observer) {
@@ -71,7 +70,7 @@ public class Producto extends Observable {
 	}
 	
 	/**
-	 * Método que notifica los cambios a los observadores
+	 * MÃ©todo que notifica los cambios a los observadores
 	 * de esta clase
 	 */
 	@Override

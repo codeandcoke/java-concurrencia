@@ -6,7 +6,10 @@ import javax.swing.JLabel;
 import javax.swing.SwingWorker;
 
 /**
-* @author Santiago Faci
+ * Representa a cada uno de los coches que compiten en la carrera
+ * Notifican, mediante la clase SwingWorker su progreso al UI de la clase principal
+ * @author Santiago Faci
+ * @version curso 2014-2015
 */
 public class Coche extends SwingWorker<Void, Integer> {
 
@@ -15,16 +18,26 @@ public class Coche extends SwingWorker<Void, Integer> {
 	private int distanciaRecorrida;
 	private JLabel marcador;
 	private String nombre;
-	
+
 	public Coche(int velocidad, int distanciaCarrera,
 		JLabel marcador, String nombre) {
 		
-		this.velocidad = new Random().nextInt(30) + 5;
+		this.velocidad = velocidad;
 		this.distanciaCarrera = distanciaCarrera;
 		distanciaRecorrida = 0;
 		this.marcador = marcador;
 		this.nombre = nombre;
 	}
+
+    public Coche(int distanciaCarrera,
+                 JLabel marcador, String nombre) {
+
+        this.velocidad = new Random().nextInt(30) + 5;
+        this.distanciaCarrera = distanciaCarrera;
+        distanciaRecorrida = 0;
+        this.marcador = marcador;
+        this.nombre = nombre;
+    }
 
 	@Override
 	protected Void doInBackground() throws Exception {

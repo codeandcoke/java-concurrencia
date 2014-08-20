@@ -6,6 +6,7 @@ import java.util.ArrayList;
  * Clase que representa un recurso de datos al que varios hilos 
  * deben acceder de forma concurrente
  * @author Santiago Faci
+ * @version curso 2014-2015
  *
  */
 public class Recurso {
@@ -14,7 +15,7 @@ public class Recurso {
 	
 	/**
 	 * Constructor
-	 * @param Datos del recurso compartido
+	 * @param datos del recurso compartido
 	 */
 	public Recurso(ArrayList<String> datos) {
 		this.datos = datos;

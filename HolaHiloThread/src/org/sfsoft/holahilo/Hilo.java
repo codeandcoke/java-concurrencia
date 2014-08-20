@@ -4,6 +4,7 @@ package org.sfsoft.holahilo;
  * Clase que define el hilo y la tarea que éste realiza
  * En este caso implementamos el hilo creando una clase que hereda de la clase Thread
  * @author Santiago Faci
+ * @version curso 2014-2015
  */
 public class Hilo extends Thread {
 	

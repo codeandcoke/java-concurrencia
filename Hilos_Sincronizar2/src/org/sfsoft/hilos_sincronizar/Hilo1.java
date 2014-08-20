@@ -3,6 +3,7 @@ package org.sfsoft.hilos_sincronizar;
 /**
  * Clase que representa a un hilo
  * @author Santiago Faci
+ * @version curso 2014-2015
  *
  */
 public class Hilo1 extends Thread {

@@ -15,7 +15,7 @@ import javax.swing.border.EmptyBorder;
  * Aplicación que muestra como trabajar con hilos y el control JProgressBar para diseñar GUIs
  * Se muestra como lanzar una tarea en segundo plano y cómo es posible cancelarla desde el GUI
  * @author Santiago Faci
- *
+ * @version curso 2014-2015
  */
 public class BarraProgreso extends JFrame {
 

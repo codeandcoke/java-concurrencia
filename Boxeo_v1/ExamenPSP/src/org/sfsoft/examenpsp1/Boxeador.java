@@ -4,6 +4,7 @@ import java.util.Random;
 
 /**
  * @author Santiago Faci
+ * @version curso 2014-2015
  */
 public class Boxeador extends Thread {
 

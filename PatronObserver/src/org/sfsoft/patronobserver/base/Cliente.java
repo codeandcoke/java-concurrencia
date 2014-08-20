@@ -9,8 +9,7 @@ import java.util.Observer;
  * En este caso es la clase que observa (Observer)
  * Observa los cambios que se produzcan en otra clase, a la que se conoce como Observable
  * @author Santiago Faci
- * @version 1.0
- *
+ * @version curso 2014-2015
  */
 public class Cliente implements Observer {
 
@@ -63,13 +62,13 @@ public class Cliente implements Observer {
 	}
 
 	/**
-	 * Método que se ejecuta cuando se producen cambios
+	 * MÃ©todo que se ejecuta cuando se producen cambios
 	 * en la clase observada
 	 */
 	@Override
 	public void update(Observable o, Object arg) {
 		
-		if (((String) arg).equals("stock"))
+		if (arg.equals("stock"))
 			System.out.println("El cliente ha sido notificado de un cambio en el stock");
 	}
 }

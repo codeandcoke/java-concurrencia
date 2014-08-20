@@ -5,6 +5,7 @@ import java.util.ArrayList;
 /**
  * Clase que muestra como compartir un recurso entre dos hilos
  * @author Santiago Faci
+ * @version curso 2014-2015
  */
 public class Hilos_Compartir {
 

@@ -4,6 +4,7 @@ package org.sfsoft.hilos_sincronizar;
  * Clase que representa a un hilo que debe esperar a que termine
  * otro hilo para empezar su tarea
  * @author Santiago Faci
+ * @version curso 2014-2015
  *
  */
 public class Hilo2 extends Thread {

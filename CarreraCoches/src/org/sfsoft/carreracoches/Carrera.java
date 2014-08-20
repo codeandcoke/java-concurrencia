@@ -13,7 +13,10 @@ import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
 /**
-* @author Santiago Faci
+ * Clase principal donde se muestra el transcurso de la carrera
+ * mediante barras de progreso y PropertyChangeListeners
+ * @author Santiago Faci
+ * @version curso 2014-2015
 */
 public class Carrera {
 
@@ -45,7 +48,7 @@ public class Carrera {
 				if (event.getPropertyName().equals("progress")) {
 					pbCoche1.setValue((Integer) event.getNewValue());
 					progresoCoche1.setText(
-						(Integer) event.getNewValue() + " %");
+						event.getNewValue() + " %");
 				}
 				if (event.getPropertyName().equals("ganador")) {
 					coche2.cancel(true);

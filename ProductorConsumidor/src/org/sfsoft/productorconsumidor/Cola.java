@@ -4,9 +4,10 @@ import java.util.ArrayList;
 
 /**
  * Clase que representa una cola de elementos
- * En este ejemplo será lo que se conoce como un recurso compartido, puesto que dos hilos accederán de forma concurrente a ella
+ * En este ejemplo será lo que se conoce como un recurso compartido, puesto que dos hilos accederán de forma concurrente
+ * a ella
  * @author Santiago Faci
- *
+ * @version curso 2014-2015
  */
 public class Cola {
 
@@ -21,7 +22,8 @@ public class Cola {
 	
 	/**
 	 * Operación que añade un elemento a la cola
-	 * El método se declara como sincronizado para que Java nos asegure que nunca lo ejecuta más de un hilo al mismo tiempo
+	 * El método se declara como sincronizado para que Java nos asegure que nunca lo ejecuta más de un hilo
+     * al mismo tiempo
 	 * @param elemento El elemento que se quiere añadir
 	 */
 	public synchronized void anadir(int elemento) {
