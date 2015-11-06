@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.sfaci.uidinamica.gui.Ventana">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="623" height="431"/>
+    </constraints>
+    <properties>
+      <preferredSize width="434" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="862f0" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6d267" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="81b76" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints/>
+            <properties>
+              <columns value="10"/>
+            </properties>
+          </component>
+          <component id="31d49" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="f168" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+            <constraints/>
+            <properties>
+              <columns value="2"/>
+            </properties>
+          </component>
+          <component id="8ee2" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="9e10a" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+            <constraints/>
+            <properties>
+              <columns value="2"/>
+            </properties>
+          </component>
+          <component id="59e4b" class="javax.swing.JButton" binding="btAnadir">
+            <constraints/>
+            <properties>
+              <actionCommand value="Anadir"/>
+              <text value="Añadir"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="6eafd" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7c9f0" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="a080" class="javax.swing.JButton" binding="btIniciar">
+            <constraints/>
+            <properties>
+              <text value="Iniciar"/>
+            </properties>
+          </component>
+          <component id="d3f19" class="javax.swing.JButton" binding="btParar">
+            <constraints/>
+            <properties>
+              <text value="Parar"/>
+            </properties>
+          </component>
+          <component id="1b22e" class="javax.swing.JButton" binding="btReiniciar">
+            <constraints/>
+            <properties>
+              <text value="Reiniciar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="11b84" binding="paneles" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
