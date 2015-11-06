@@ -5,7 +5,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by Santi on 06/11/15.
+ * Ventana principal de la aplicación
+ *
+ * @author Santiago Faci
+ * @version curso 2015-2016
  */
 public class Ventana implements ActionListener {
     private JPanel panel1;
@@ -42,6 +45,7 @@ public class Ventana implements ActionListener {
 
         switch (actionCommand) {
             case "Anadir":
+                // Añade el panel a la ventana y fuerza el refresco de la UI (revalidate)
                 PanelWorker panel = new PanelWorker();
                 paneles.add(panel.panel1);
                 paneles.revalidate();

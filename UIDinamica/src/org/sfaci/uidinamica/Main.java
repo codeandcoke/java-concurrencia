@@ -3,7 +3,12 @@ package org.sfaci.uidinamica;
 import org.sfaci.uidinamica.gui.Ventana;
 
 /**
- * Created by Santi on 06/11/15.
+ * Aplicación ejemplo que muestra cómo trabajar con UIs dinámicas
+ *
+ * Clase principal. Sólo lanza la ventana principal
+ *
+ * @author Santiago Faci
+ * @version curso 2015-2016
  */
 public class Main {
 

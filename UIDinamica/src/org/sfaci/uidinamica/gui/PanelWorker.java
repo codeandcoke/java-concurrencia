@@ -3,7 +3,10 @@ package org.sfaci.uidinamica.gui;
 import javax.swing.*;
 
 /**
- * Created by Santi on 06/11/15.
+ * Panel que aparece para representar cada una de las tareas que ejecuta la aplicación
+ *
+ * @author Santiago Faci
+ * @version curso 2015-2016
  */
 public class PanelWorker {
     private JProgressBar progressBar1;
