@@ -3,6 +3,7 @@ java-concurrencia
 
 Ejemplos de programación concurrente con Java
 
+- **UIDinamica**: Ejemplo de cómo diseñar una UI de forma dinámica y por componentes
 - **BarraProgreso**: Ejemplo de cómo actualizar una barra de progreso en java utilizando la clase SwingWorker
 - **Boxeo v1**: Ejemplo de sincronización de hilos (v1)
 - **Boxeo v2**: Ejemplo de sincronización de hilos (v2)
