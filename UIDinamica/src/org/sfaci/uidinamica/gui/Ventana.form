@@ -17,38 +17,32 @@
           <component id="6d267" class="javax.swing.JLabel">
             <constraints/>
             <properties>
-              <text value="Label"/>
+              <text value="Nombre"/>
             </properties>
           </component>
-          <component id="81b76" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+          <component id="81b76" class="javax.swing.JTextField" binding="tfNombre">
             <constraints/>
             <properties>
               <columns value="10"/>
             </properties>
+            <clientProperties>
+              <caretAspectRatio class="java.lang.Float" value="0.04"/>
+            </clientProperties>
           </component>
           <component id="31d49" class="javax.swing.JLabel">
             <constraints/>
             <properties>
-              <text value="Label"/>
+              <text value="Velocidad"/>
             </properties>
           </component>
-          <component id="f168" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+          <component id="f168" class="javax.swing.JTextField" binding="tfVelocidad">
             <constraints/>
             <properties>
               <columns value="2"/>
             </properties>
-          </component>
-          <component id="8ee2" class="javax.swing.JLabel">
-            <constraints/>
-            <properties>
-              <text value="Label"/>
-            </properties>
-          </component>
-          <component id="9e10a" class="javax.swing.JTextField" binding="textField3" default-binding="true">
-            <constraints/>
-            <properties>
-              <columns value="2"/>
-            </properties>
+            <clientProperties>
+              <caretAspectRatio class="java.lang.Float" value="0.04"/>
+            </clientProperties>
           </component>
           <component id="59e4b" class="javax.swing.JButton" binding="btAnadir">
             <constraints/>

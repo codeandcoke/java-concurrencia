@@ -1,8 +1,12 @@
 package org.sfaci.uidinamica.gui;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.util.ArrayList;
 
 /**
  * Ventana principal de la aplicación
@@ -10,16 +14,17 @@ import java.awt.event.ActionListener;
  * @author Santiago Faci
  * @version curso 2015-2016
  */
-public class Ventana implements ActionListener {
+public class Ventana implements ActionListener, KeyListener {
     private JPanel panel1;
-    private JTextField textField1;
-    private JTextField textField2;
-    private JTextField textField3;
+    private JTextField tfNombre;
+    private JTextField tfVelocidad;
     private JButton btIniciar;
     private JButton btParar;
     private JButton btAnadir;
     private JButton btReiniciar;
     private JPanel paneles;
+
+    private ArrayList<PanelWorker> listaPaneles;
 
     public Ventana() {
 
@@ -31,11 +36,15 @@ public class Ventana implements ActionListener {
         frame.setVisible(true);
 
         anadirListeners();
+
+        listaPaneles = new ArrayList<PanelWorker>();
     }
 
     private void anadirListeners() {
 
         btAnadir.addActionListener(this);
+        btIniciar.addActionListener(this);
+        tfVelocidad.addKeyListener(this);
     }
 
     @Override
@@ -46,12 +55,40 @@ public class Ventana implements ActionListener {
         switch (actionCommand) {
             case "Anadir":
                 // Añade el panel a la ventana y fuerza el refresco de la UI (revalidate)
-                PanelWorker panel = new PanelWorker();
+                PanelWorker panel =
+                        new PanelWorker(tfNombre.getText(),
+                                Integer.parseInt(tfVelocidad.getText()));
+                tfNombre.setText("");
+                tfVelocidad.setText("");
+                tfNombre.requestFocus();
                 paneles.add(panel.panel1);
                 paneles.revalidate();
+                listaPaneles.add(panel);
                 break;
+            case "Iniciar":
+                for (PanelWorker panelWorker : listaPaneles)
+                    panelWorker.iniciar();
             default:
                 break;
+        }
+    }
+
+    @Override
+    public void keyTyped(KeyEvent e) {
+
+    }
+
+    @Override
+    public void keyPressed(KeyEvent e) {
+
+    }
+
+    @Override
+    public void keyReleased(KeyEvent e) {
+        if (e.getSource() == tfVelocidad) {
+            if (e.getKeyCode() == KeyEvent.VK_ENTER) {
+                btAnadir.doClick();
+            }
         }
     }
 }
