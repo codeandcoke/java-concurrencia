@@ -34,6 +34,10 @@ public class TareaObservable extends Observable implements Runnable {
 		funcionando = false;
 	}
 
+    public int getValor() {
+        return valor;
+    }
+
 	@Override
 	public void run() {
 		

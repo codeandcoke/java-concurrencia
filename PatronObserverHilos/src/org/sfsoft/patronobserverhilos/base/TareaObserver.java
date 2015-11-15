@@ -42,6 +42,6 @@ public class TareaObserver implements Runnable, Observer {
 	public void update(Observable o, Object arg) {
 		
 		if (arg.equals("valor"))
-			System.out.println("El hilo observable ha modificado el valor");
+			System.out.println("El hilo observable ha modificado el valor a " + ((TareaObservable) o).getValor());
 	}
 }
