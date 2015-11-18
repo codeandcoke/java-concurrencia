@@ -16,7 +16,7 @@ import java.net.MalformedURLException;
  * mientras refresca el interfaz con una barra de progreso mostrando
  * el proceso de la descarga
  * @author Santiago Faci
- * @version curso 2014-2015
+ * @version curso 2015-2016
  */
 
 public class JDescargaFichero {

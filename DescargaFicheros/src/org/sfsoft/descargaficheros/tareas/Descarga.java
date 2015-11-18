@@ -13,7 +13,7 @@ import javax.swing.SwingWorker;
 /**
  * Tarea SwingWorker que realiza la descarga de un fichero
  * @author Santiago Faci
- * @version curso 2014-2015
+ * @version curso 2015-2016
  */
 public class Descarga extends SwingWorker<Void, Integer>{
 
