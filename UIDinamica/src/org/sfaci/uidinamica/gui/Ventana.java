@@ -28,6 +28,22 @@ public class Ventana implements ActionListener, KeyListener {
 
     public Ventana() {
 
+        Thread hiloSplash = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                SplashScreen splash = new SplashScreen();
+                splash.mostrar();
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException ie) {
+                    ie.printStackTrace();
+                }
+                splash.ocultar();
+            }
+        });
+        hiloSplash.start();
+
+
         JFrame frame = new JFrame("Ventana");
         frame.setContentPane(panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
