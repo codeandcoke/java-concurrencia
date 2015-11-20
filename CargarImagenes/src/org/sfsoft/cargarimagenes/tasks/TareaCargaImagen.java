@@ -60,6 +60,7 @@ public class TareaCargaImagen extends SwingWorker<ArrayList<BufferedImage>, Inte
 			try {
 				// Carga la imagen de disco a memoria
 				imagen = ImageIO.read(fichero);
+                imagenes.add(imagen);
 				// Notifica el estado de la carga (en este caso el námero de imagen procesada)
 				publish(i++);
 				/*
@@ -93,7 +94,7 @@ public class TareaCargaImagen extends SwingWorker<ArrayList<BufferedImage>, Inte
 	 * se le pasan a este método en forma de lista puesto que no está asegurado que por 
 	 * cada llamada a publish() haya una llamada a process(). Se pasarán siempre los
 	 * valores publicados pendientes de procesar
-	 * @see javax.swing.SwingWorker#process()
+	 * @see javax.swing.SwingWorker#process(java.util.List)
 	 */
 	@Override
     protected void process(List<Integer> valores) {

@@ -5,7 +5,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by Santi on 10/11/14.
+ * Proyecto que muestra como cargar y detener una barra de progreso
+ *
+ * @author Santiago Faci
+ * @version curso 2014-2015
  */
 public class JBarraProgreso {
     private JPanel panel1;
