@@ -21,3 +21,4 @@ Ejemplos de programación concurrente con Java
 - **PatronObserverHilos**: Ejemplo de uso del patrón de diseño _Observer_ con hilos en Java
 - **ProductorConsumidor**: Ejemplo de productor consumidor en Java
 - **ProductorConsumidorN**: Ejemplo de productor consumir en Java (para el caso de N consumidor y productores)
+- **ejemplolog4j**: Ejemplo de cómo trabajar con ficheros de registro (logs) con Java y la librería log4j
