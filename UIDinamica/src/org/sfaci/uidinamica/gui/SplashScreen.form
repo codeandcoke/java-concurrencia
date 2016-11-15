@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.sfaci.uidinamica.gui.SplashScreen">
+  <grid id="27dc6" binding="panel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="550" height="512"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="3dd37" class="javax.swing.JLabel">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <icon value="logo.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,5 +1,6 @@
 package org.sfaci.uidinamica;
 
+import org.sfaci.uidinamica.gui.SplashScreen;
 import org.sfaci.uidinamica.gui.Ventana;
 
 /**
