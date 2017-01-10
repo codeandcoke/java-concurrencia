@@ -25,5 +25,6 @@ public class SplashScreen {
 
     public void ocultar() {
         frame.setVisible(false);
+        frame.dispose();
     }
 }

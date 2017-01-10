@@ -42,7 +42,11 @@ public class Ventana implements ActionListener, KeyListener {
             }
         });
         hiloSplash.start();
-
+        try {
+            hiloSplash.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
         JFrame frame = new JFrame("Ventana");
         frame.setContentPane(panel1);
