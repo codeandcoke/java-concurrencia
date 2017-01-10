@@ -22,3 +22,4 @@ Ejemplos de programación concurrente con Java
 - **ProductorConsumidor**: Ejemplo de productor consumidor en Java
 - **ProductorConsumidorN**: Ejemplo de productor consumir en Java (para el caso de N consumidor y productores)
 - **ejemplolog4j**: Ejemplo de cómo trabajar con ficheros de registro (logs) con Java y la librería log4j
+- **PersecucionAviones**: Ejempalo de patrón Observer donde un objeto observa y reacciona ante los cambios de otro
