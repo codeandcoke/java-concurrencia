@@ -23,4 +23,8 @@ Ejemplos de programación concurrente con Java (Hilos, SwingWorker, gestión de 
 - **ProductorConsumidorN**: Ejemplo de productor consumir en Java (para el caso de N consumidor y productores)
 - **ejemplolog4j**: Ejemplo de cómo trabajar con ficheros de registro (logs) con Java y la librería log4j
 - **PersecucionAviones**: Ejemplo de patrón Observer donde un objeto observa y reacciona ante los cambios de otro
-- **multidescarga**: Ejemplo de aplicación JavaFX que lanza tarea (Task de JavaFX) en segundo plano para descargar ficheros
+- **MultidescargaFx**: Ejemplo de aplicación JavaFX que lanza tarea (Task de JavaFX) en segundo plano para descargar ficheros
+- **ContadorFx**: Ejemplo de la clase Task que viene con JavaFX para lanzar tareas en segundo plano
+- **AnimalsFxConcurrency**: Ejemplo de JavaFX + Retrofit + Concurrencia (Consume una API propia no incluida en el proyecto)
+- **CountriesFxConcurrency**: Ejemplo de JavaFX + Retrofit + Concurrencia (Consume la API pública [REST
+  Countries](https://restcountries.com)
