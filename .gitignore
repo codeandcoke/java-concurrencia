@@ -1,5 +1,9 @@
 *.class
 .DS_Store
+.idea
+target
+*.log
+*.iml
 
 # Package Files #
 *.war

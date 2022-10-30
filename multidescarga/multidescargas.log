@@ -1,0 +1,82 @@
+18:58:48.506 [JavaFX Application Thread] TRACE com.svalero.multihilo.DownloadController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.80.tar.xz creada
+18:59:39.800 [Thread-3] TRACE com.svalero.multihilo.DownloadController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.80.tar.xz iniciada
+18:59:42.159 [JavaFX Application Thread] TRACE com.svalero.multihilo.DownloadController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.80.tar.xz detenida
+18:59:42.164 [Thread-3] TRACE com.svalero.multihilo.DownloadController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.80.tar.xz cancelada
+19:02:23.935 [JavaFX Application Thread] TRACE com.svalero.multihilo.DownloadController - Descarga asdasdasd creada
+19:02:31.334 [JavaFX Application Thread] ERROR com.svalero.multihilo.DownloadController - [Ljava.lang.StackTraceElement;@58dd7f2b
+19:03:39.776 [JavaFX Application Thread] TRACE com.svalero.multihilo.DownloadController - Descarga asdasdasda creada
+19:03:46.019 [JavaFX Application Thread] ERROR com.svalero.multihilo.DownloadController - [java.base/java.net.URL.<init>(URL.java:634), java.base/java.net.URL.<init>(URL.java:530), java.base/java.net.URL.<init>(URL.java:477), com.svalero.multihilo.DownloadTask.<init>(DownloadTask.java:22), com.svalero.multihilo.DownloadController.start(DownloadController.java:53), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method), java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:566), com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76), jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source), java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43), java.base/java.lang.reflect.Method.invoke(Method.java:566), javafx.base/com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273), javafx.fxml/com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83), javafx.fxml/javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1782), javafx.fxml/javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1670), javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86), javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238), javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191), javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59), javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58), javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114), javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56), javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114), javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56), javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114), javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56), javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114), javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56), javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114), javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74), javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49), javafx.base/javafx.event.Event.fireEvent(Event.java:198), javafx.graphics/javafx.scene.Node.fireEvent(Node.java:8885), javafx.controls/javafx.scene.control.Button.fire(Button.java:203), javafx.controls/com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:206), javafx.controls/com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274), javafx.base/com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218), javafx.base/com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80), javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238), javafx.base/com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191), javafx.base/com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59), javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58), javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114), javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56), javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114), javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56), javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114), javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56), javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114), javafx.base/com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56), javafx.base/com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114), javafx.base/com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74), javafx.base/com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54), javafx.base/javafx.event.Event.fireEvent(Event.java:198), javafx.graphics/javafx.scene.Scene$MouseHandler.process(Scene.java:3890), javafx.graphics/javafx.scene.Scene.processMouseEvent(Scene.java:1885), javafx.graphics/javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2618), javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409), javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299), java.base/java.security.AccessController.doPrivileged(Native Method), javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447), javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412), javafx.graphics/com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446), javafx.graphics/com.sun.glass.ui.View.handleMouseEvent(View.java:556), javafx.graphics/com.sun.glass.ui.View.notifyMouse(View.java:942), javafx.graphics/com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127)]
+19:06:21.297 [JavaFX Application Thread] TRACE com.svalero.multihilo.DownloadController - Descarga asdasdasdasd creada
+19:06:27.535 [JavaFX Application Thread] ERROR com.svalero.multihilo.DownloadController - URL mal formada
+java.net.MalformedURLException: no protocol: asdasdasdasd
+	at com.svalero.multihilo.DownloadController.start(DownloadController.java:72) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76) ~[javafx-base-11.0.2-mac.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83) ~[javafx-fxml-14-mac.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1782) ~[javafx-fxml-14-mac.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1670) ~[javafx-fxml-14-mac.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-11.0.2-mac.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-11.0.2-mac.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8885) ~[javafx-graphics-14-mac.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-14-mac.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:206) ~[javafx-controls-14-mac.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-14-mac.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-11.0.2-mac.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-11.0.2-mac.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-11.0.2-mac.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3890) ~[javafx-graphics-14-mac.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1885) ~[javafx-graphics-14-mac.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2618) ~[javafx-graphics-14-mac.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409) ~[javafx-graphics-14-mac.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299) ~[javafx-graphics-14-mac.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447) ~[javafx-graphics-14-mac.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412) [javafx-graphics-14-mac.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446) [javafx-graphics-14-mac.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556) [javafx-graphics-14-mac.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:942) [javafx-graphics-14-mac.jar:?]
+	at com.sun.glass.ui.mac.MacView.notifyMouse(MacView.java:127) [javafx-graphics-14-mac.jar:?]
+19:20:12.866 [JavaFX Application Thread] TRACE com.svalero.multihilo.DownloadController - Descarga iifiidjijdf creada
+19:20:14.390 [JavaFX Application Thread] TRACE com.svalero.multihilo.DownloadController - Descarga sdfsdf creada
+19:20:15.802 [JavaFX Application Thread] TRACE com.svalero.multihilo.DownloadController - Descarga sdfsdf creada
+19:31:27.541 [JavaFX Application Thread] INFO  com.svalero.multihilo.DownloadController - Descarga https://git.kernel.org/torvalds/t/linux-5.10-rc5.tar.gz creada
+19:31:27.566 [JavaFX Application Thread] INFO  com.svalero.multihilo.DownloadController - Descarga https://git.kernel.org/torvalds/t/linux-5.10-rc5.tar.gz creada
+19:31:27.575 [JavaFX Application Thread] INFO  com.svalero.multihilo.DownloadController - Descarga https://git.kernel.org/torvalds/t/linux-5.10-rc5.tar.gz creada
+18:41:25.766 [JavaFX Application Thread] INFO  com.svalero.multihilo.DownloadController - Descarga  creada
