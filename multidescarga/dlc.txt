@@ -1,3 +1,0 @@
-https://git.kernel.org/torvalds/t/linux-5.10-rc5.tar.gz
-https://git.kernel.org/torvalds/t/linux-5.10-rc5.tar.gz
-https://git.kernel.org/torvalds/t/linux-5.10-rc5.tar.gz

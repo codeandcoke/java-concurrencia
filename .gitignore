@@ -4,11 +4,9 @@
 target
 *.log
 *.iml
+out
 
 # Package Files #
 *.war
 *.ear
-.idea
-target
-out
 *.jar
